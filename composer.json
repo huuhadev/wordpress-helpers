@@ -1,0 +1,25 @@
+{
+	"name": "huuhadev/wordpress-helpers",
+	"description": "Collection of utilities required during development of a plugin or theme for WordPress. Build for developers by developers",
+	"keywords": ["wordpress", "plugin", "wordpress helpers"],
+	"homepage": "https://huuhadev.com",
+	"license": "GPLv2",
+	"authors": [
+	{
+		"name": "HuuHaDev",
+		"homepage": "https://huuhadev.com"
+	}
+	],
+	"type": "wordpress-plugin",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload" : {
+		"classmap" : [ "src/" ],
+		"psr-4" : {
+			"HuuHaDev\\Helpers\\": "src/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true
+	}
+}
